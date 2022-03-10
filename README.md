@@ -1,3 +1,6 @@
+# Note: Why we forked the base repo
+We have experienced [issue](https://github.com/epoch8/airflow-exporter/pull/111) when using MySQL 5.7 for Airflow DB. As it works for us, we merged the branch to `master` and will use it.
+
 # Airflow prometheus exporter
 
 Exposes dag and task based metrics from Airflow to a Prometheus compatible endpoint.
